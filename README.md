@@ -2,8 +2,9 @@
 -------------
 Some Mysql operations between two databases.
 
-**database**:*newsProject*
-**table**:	*news*
+**database**: *newsProject*
+
+**table**: *news*
 
     +------------------+--------------+------+-----+---------+----------------+
     | Field            | Type         | Null | Key | Default | Extra          |
@@ -20,8 +21,9 @@ Some Mysql operations between two databases.
     | outer_id         | varchar(150) | YES  | UNI | NULL    |                |
     +------------------+--------------+------+-----+---------+----------------+
 
-**database**:*NewsTag*
-**table**:	*NewsList*
+**database**: *NewsTag*
+
+**table**: *NewsList*
 
     +-------------+--------------+------+-----+-------------------+----------------+
     | Field       | Type         | Null | Key | Default           | Extra          |
@@ -44,8 +46,9 @@ Some Mysql operations between two databases.
     | fakeDocId   | bigint(20)   | YES  | UNI | 0                 |                |
     +-------------+--------------+------+-----+-------------------+----------------+
 
-**database**:*NewsTag*
-**table**:	*NewsHash*
+**database**: *NewsTag*
+
+**table**: *NewsHash*
 
     +-------------+--------------+------+-----+---------+-------+
     | Field       | Type         | Null | Key | Default | Extra |
